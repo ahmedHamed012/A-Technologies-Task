@@ -1,0 +1,29 @@
+{
+    "titles":{
+        "pageTitle":"إنشاء صفقة جديدة",
+        "secOneTitle":"شراء / تأجير شقة سكنية في منطقة التجمع الأول",
+        "clientTitle":"حدد العميل",
+        "transactionTitle":"سعر الصفقة",
+        "progressBarTitle":"إحتمالية نجاح الصفقة",
+        "adminTitle":"مسئول الصفقة",
+        "socialMediaTitle":"المصدر",
+        "projectTitle":"المشروع",
+        "chipsTitle":"العلامات",
+        "productsTitle":"المنتجات",
+        "additionalInfoTitle":"معلومات إضافية",
+        "noProductsTitle":"لا يوجد منتجات"
+    },
+    "subTitles":{
+        "clientSubtitle":"يرجي البحث عن العميل لإختياره",
+        "priceSubtitle":"سعر الصفقة هو المبلغ المدفوع شامل الضرائب",
+        "productsSubtitle":"يرجي إضافة منتجات وإدارتها للصفقة الحالية"
+    },
+    "buttons":{
+        "addbutton":"إضافة منتج",
+        "contractSign":"توقيع العقد",
+        "dealAdd":"إضافة الصفقة"
+    },
+    "placeholder":{
+        "contactPlaceholder":"إبحث عن عميل : مثال اسم العميل , رقم الهاتف"
+    }
+}

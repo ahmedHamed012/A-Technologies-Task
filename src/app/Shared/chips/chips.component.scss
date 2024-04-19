@@ -1,0 +1,96 @@
+.chpis-container {
+    height: 32px;
+    border-radius: 5px;
+    border: 0.5px solid #83899f66;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  ::ng-deep {
+    p-chips {
+      height: 32px;
+    }
+    ul.p-inputtext.p-chips-multiple-container {
+      border: none;
+      margin-bottom: 0;
+    }
+    div.p-chips.p-component {
+      height: 30px;
+    }
+    .p-chips:not(.p-disabled).p-focus .p-chips-multiple-container {
+      box-shadow: none;
+    }
+    span.p-chips-token-label {
+      font-size: 10px;
+      font-family: var(--mainFont);
+      font-weight: 400;
+    }
+    li.p-chips-token {
+      width: 67px;
+      height: 19px;
+      border-radius: 6px;
+      padding: 2px 8px 2px 8px;
+    }
+    div.p-chips.p-component.p-input-wrapper {
+      align-items: center;
+    }
+    li.p-chips-input-token {
+      input {
+        font-size: 10px;
+        font-family: var(--mainFont);
+        font-weight: 400;
+      }
+    }
+    ul.p-chips-multiple-container {
+      li.p-chips-token {
+        &:nth-child(1) {
+          background-color: #fcf0e9 !important;
+          color: #e17b39 !important;
+        }
+        &:nth-child(2) {
+          background-color: #ebf6f0 !important;
+          color: #4eab79 !important;
+        }
+        &:nth-child(3) {
+          background-color: #efedfd !important;
+          color: #675ceb !important;
+        }
+        &:nth-child(odd){
+          background-color: #ebf6f0;
+          color: #4eab79;
+        }
+        &:nth-child(even){
+          background-color: #fcf0e9;
+          color: #e17b39;
+        }
+      }
+    }
+    timescircleicon {
+      display: none;
+    }
+  }
+  .chips-counter {
+    width: 19px;
+    height: 19px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #83899f1a;
+    padding: 2px 3px 2px 3px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #83899f;
+    font-family: var(--secondaryFont);
+  }
+  .tooltips {
+    display: flex;
+    align-items: center;
+    span {
+      font-family: var(--mainFont);
+      font-size: 10px;
+      font-weight: 400;
+      color: #83899f;
+    }
+  }

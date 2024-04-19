@@ -1,0 +1,29 @@
+{
+    "titles":{
+        "pageTitle":"Create New Deal",
+        "secOneTitle":"Buying / renting an apartment in the First Settlement",
+        "clientTitle":"Choose Client",
+        "transactionTitle":"Deal Price",
+        "progressBarTitle":"Probability of successful deal",
+        "adminTitle":"Deal Administrator",
+        "socialMediaTitle":"Source",
+        "projectTitle":"Project",
+        "chipsTitle":"Signs",
+        "productsTitle":"Products",
+        "additionalInfoTitle":"Additional Information",
+        "noProductsTitle":"There's no products"
+    },
+    "subTitles":{
+        "clientSubtitle":"Please search for the customer",
+        "priceSubtitle":"The price is the amount paid include taxes",
+        "productsSubtitle":"Please add and manage products for the current deal"
+    },
+    "buttons":{
+        "addbutton":"Add",
+        "contractSign":"Contract Sign",
+        "dealAdd":"Add Deal"
+    },
+    "placeholder":{
+        "contactPlaceholder":"Search for a customer: e.g. customer name, phone number"
+    }
+}

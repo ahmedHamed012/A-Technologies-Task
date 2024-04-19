@@ -1,0 +1,18 @@
+.main-content {
+  width: 490px;
+  height: fit-content;
+  background-color: #fafafa;
+  border-radius: 7.83px;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .main-content {
+    width: 100vw;
+    height: 599px;
+    overflow: auto;
+  }
+  span.label-text {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,62 @@
+@import "../../../styles.scss";
+.footer-sec {
+  height: 48px;
+  background-color: white;
+  border-top: 0.5px solid #83899f4d;
+}
+.contract-sign {
+  width: 80px;
+  height: 28px;
+  border: 0.5px solid #e0e1f4;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-size: 9.41px;
+    font-weight: 400;
+    font-family: var(--mainFont);
+    color: #9599d8;
+  }
+}
+div.add-btn {
+  ::ng-deep {
+    div.p-splitbutton.p-component.p-button-outlined {
+      width: 97.06px;
+      height: 28px;
+      border-radius: 5.29px;
+      background-color: #0771de;
+      border: none;
+      &:hover{
+        background-color: white;
+        transition: 0.5s ease-in-out all;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border: 1px solid #0771de;
+        span.p-button-label{
+          font-size: 10px;
+          font-weight: 400;
+          font-family: var(--mainFont);
+          color: #0771de;
+      }
+      svg{
+        fill:#0771de
+      }
+      }
+    }
+    span.p-button-label{
+        font-size: 10px;
+        font-weight: 400;
+        font-family: var(--mainFont);
+        color: white;
+    }
+  }
+}
+::ng-deep {
+    button.p-element.p-splitbutton-defaultbutton.p-button.p-component.p-button-outlined{
+        border: none;
+    }
+    button.p-element.p-splitbutton-menubutton.p-button-icon-only.p-button.p-component.p-button-outlined{
+        border: none;
+        border-right: 1px solid white;
+    }
+}

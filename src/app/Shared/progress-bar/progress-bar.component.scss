@@ -1,0 +1,73 @@
+@import "../../../styles.scss";
+.progress-section {
+    position: relative;
+}
+div.gray-progress{
+    position: absolute;
+    z-index:0;
+}
+div.progress-container{
+    width: var(--progress-width);
+    position: relative;
+        &::after {
+        content:'';
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #0771de;
+        border: 1.5px solid #FFFFFF;
+        position: absolute;
+        bottom:2.7px;
+        left: 0px;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+}
+div.blue-progress{
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+.percentage-label {
+    position: relative;
+    
+}
+// .main-label {
+//     width: 27px;
+//     height:24px;
+//     background-color: #1C1C28;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: white;
+//     font-size: 8px;
+//     font-weight: 400;
+//     font-family: var(--secondaryFont);
+//     border-radius: 3.75px;
+//     position: absolute;
+//     bottom: 0;
+//     left: 0%;
+//     &::after{
+//         content: '';
+//         width: 10px;
+//         height: 0;    
+//         border: 10px solid #1C1C28;
+//         border-left-color: transparent;
+//         border-right-color: transparent;
+//         border-bottom-color: transparent;
+//         position: absolute;
+//         bottom: -60%;
+//     }
+// }
+.percent-no {
+    font-family: var(--secondaryFont);
+    font-size: 8px;
+    font-weight: 400;
+    color: #83899F;
+}
+div[class*="-percent"] {
+    width: calc(100% / 8);
+    display: flex;
+    align-items: start;
+}

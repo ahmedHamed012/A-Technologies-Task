@@ -1,0 +1,16 @@
+<div class="chpis-container gap-2 w-100 mt-1">
+    <p-chips
+      [(ngModel)]="values"
+      class="w-75"
+      (onAdd)="checkChipsSize()"
+      (onRemove)="checkChipsSize()"
+    ></p-chips>
+    @if(values.length > chipSizeLimit){
+    <div class="chips-counter">
+      <span>{{ values.length - chipSizeLimit }}+</span>
+    </div>
+    <div class="tooltips">
+      <span> | {{ tooltipText }}</span>
+    </div>
+    }
+  </div>

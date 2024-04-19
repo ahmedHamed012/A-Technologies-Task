@@ -1,0 +1,22 @@
+::ng-deep {
+    div.p-ripple.p-element.p-togglebutton.p-button.p-component{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 0;
+    position: fixed;
+    top: 50%;
+    right: 5px;
+    }
+    span.p-button-icon{
+        font-size: 10px;
+        margin-right: 0;
+    }
+    span.p-button-label{
+        font-size: 10px;
+    }
+    div.speeddial-linear-demo{
+        height: 0 !important;
+        position: unset;
+    }
+}
